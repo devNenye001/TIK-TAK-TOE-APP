@@ -1,0 +1,10 @@
+node_modules
+.expo
+.git
+.vscode
+.DS_Store
+*.log
+*.mp4
+*.mov
+*.zip
+AppData

@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Tik-Tak-Toe",
+    "slug": "Tik-Tak-Toe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/favicon.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.devnenye.tiktaktoe",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.devnenye.tiktaktoe"
+    },
+    "web": {
+      "favicon": "./assets/favicon.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fcd4b588-e00c-4792-a206-105f5f1b80f8"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fcd4b588-e00c-4792-a206-105f5f1b80f8"
+    }
+  }
+}
